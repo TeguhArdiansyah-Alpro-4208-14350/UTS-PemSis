@@ -5,13 +5,13 @@
 
 ## Deskripsi Proyek
 
-Aplikasi backend ini dibuat untuk mengelola persediaan barang dalam sebuah toko, mencakup pengelolaan:
+Aplikasi ini dibuat untuk mengelola persediaan barang dalam sebuah toko, mencakup pengelolaan:
 - Barang (Items)
 - Kategori barang (Categories)
 - Pemasok (Suppliers)
 - Admin (Admins)
 
-Setiap data perubahan dicatat berdasarkan admin yang bertanggung jawab.
+Setiap data dikelola oleh admin yang bertanggung jawab.
 
 Framework: **Express.js**  
 Database: **MySQL**  
@@ -122,40 +122,5 @@ http://localhost:3000/
   - Ringkasan per kategori
   - Ringkasan per pemasok
   - Ringkasan keseluruhan sistem
-
----
-
-## Struktur Folder
-
-```
-inventory-management/
-├── src/
-│   ├── config/
-│   │   └── config.json
-│   ├── controllers/
-│   │   ├── category.controller.js
-│   │   ├── item.controller.js
-│   │   ├── report.controller.js
-│   │   └── supplier.controller.js
-│   ├── migrations/
-│   ├── models/
-│   │   ├── category.model.js
-│   │   ├── index.js
-│   │   ├── item.model.js
-│   │   └── supplier.model.js
-│   ├── routes/
-│   │   ├── category.routes.js
-│   │   ├── item.routes.js
-│   │   ├── report.routes.js
-│   │   └── supplier.routes.js
-│   └── seeders/
-│
-├── .env
-├── app.js
-├── Dockerfile
-├── docker-compose.yml
-├── package.json
-├── package-lock.json
-└── README.md
 ```
 # UTS-PemSis
