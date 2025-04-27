@@ -1,5 +1,6 @@
 ## Teguh Ardiansyah
 ## A11.2022.14350
+##### belum 100% selesai pak,, jadi ngumpul seadanya aja hehe
 # Inventory Management API
 
 ## Deskripsi Proyek
